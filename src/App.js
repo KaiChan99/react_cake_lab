@@ -2,19 +2,29 @@
 import './App.css';
 import Title from './Title';
 import Nav from './Nav';
+import SearchBar from './SearchBar';
+import Display from './Display';
+import Form from './Form';
 
 function App() {
 
-  return ( 
+  return (
   <div>
+
+ 
+  <Nav/>
 
   <Title/>
 
-  <Nav/>
+  <SearchBar/>
+
+  <Display/>
+
+  <Form/>
 
   </div>
   
   );
-}
+};
 
 export default App;
